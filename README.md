@@ -1,9 +1,7 @@
 # Unemployment-Analysis-With-Python
-Unemployment Analysis with Python
-
 This project aims to analyze the unemployment data of a specific country and create visualizations to help understand the trends and patterns in the data. The project uses Python libraries such as Pandas, Matplotlib, and NumPy for data manipulation and visualization.
 
-Installation
+## Installation
 
 To use this project, you need to have Python 5  and the following Python libraries installed:
 Pandas
@@ -23,7 +21,7 @@ Alternatively, you can install the libraries by running the requirements.txt fil
 
 pip install -r requirements.txt
 
-Usage
+## Usage
 
 To use this project, follow these steps:
 
@@ -39,7 +37,7 @@ python Unemployment_analysis_with_python.py
 
 5.The script will read the unemployment data from a CSV file in the data directory and create visualizations to help understand the trends and patterns in the data. The visualizations will be saved in the output directory.
 
-Data
+## Data
 
 The unemployment data used in this project is obtained from the World Bank Open Data website. The data is stored in a CSV file in the data directory. The CSV file contains the following columns:
 Region
@@ -50,6 +48,6 @@ Estimated Employed
 Estimated Labour Participation Rate (%)	
 Area
 
-License
+## License
 
 This project is licensed under the MIT License. 
