@@ -1,53 +1,45 @@
-# Unemployment-Analysis-With-Python
-This project aims to analyze the unemployment data of a specific country and create visualizations to help understand the trends and patterns in the data. The project uses Python libraries such as Pandas, Matplotlib, and NumPy for data manipulation and visualization.
+<h1 align = "center"> Unemployment-Analysis-With-Python </h1>
 
-## Installation
+<img src = "images/unemployment.jpg" height = "300" width = "1500" >
 
-To use this project, you need to have Python 5  and the following Python libraries installed:
-Pandas
-Matplotlib
-NumPy
-seaborn 
-plotly
+## 📝 Description
+This project aims to analyze the unemployment data of a India and create visualizations to help understand the trends and patterns in the data. The project uses Python libraries such as Pandas, Matplotlib, and NumPy for data manipulation and visualization.
 
-You can install these libraries using the following commands:
-pip install pandas
-pip install matplotlib
-pip install numpy
-pip install seaborn 
-pip install plotly
+## ⏳Dataset
 
-Alternatively, you can install the libraries by running the requirements.txt file in the project directory:
+Download the dataset for custom training [data](data/) . 
 
+The data is stored in a CSV file in the data directory. The CSV file contains the following columns:
+- Region
+- Date	
+- Frequency	
+- Estimated Unemployment Rate (%)	
+- Estimated Employed	
+- Estimated Labour Participation Rate (%)	
+- Area
+
+## 🛠️Installation and Usage
+
+1. Clone this repository to your local machine:
+```
+git clone https://github.com/usmanbvp/Unemployment-Analysis-With-Python.git
+```
+2. Install the required Python libraries using the following command:
+``` 
 pip install -r requirements.txt
+```
+3. Open the Jupyter notebook in the project cloned folder, by running:
+```
+jupyter notebook
+```
 
-## Usage
+4. Inside the notebooks folder, you will find the Unemployment_analysis_with_python.ipynb. Open it.
 
-To use this project, follow these steps:
+5. Run the cells one by one  in the notebook to visualize the patterns of data.
 
-1.Clone the project repository to your local machine
+<img src = "images/newplot.png" height = "300"  >
 
-2.Open a terminal or command prompt and navigate to the project directory
+## 🗒️License
 
-3.Run the unemployment_analysis.py script using the following command:
-
-python Unemployment_analysis_with_python.py
-
-4.The script will prompt you to enter the name of the country whose unemployment data you want to analyze. Enter the name of the country and press Enter.
-
-5.The script will read the unemployment data from a CSV file in the data directory and create visualizations to help understand the trends and patterns in the data. The visualizations will be saved in the output directory.
-
-## Data
-
-The unemployment data used in this project is obtained from the World Bank Open Data website. The data is stored in a CSV file in the data directory. The CSV file contains the following columns:
-Region
-Date	
-Frequency	
-Estimated Unemployment Rate (%)	
-Estimated Employed	
-Estimated Labour Participation Rate (%)	
-Area
-
-## License
-
-This project is licensed under the MIT License. 
+This project is licensed under the [MIT License](LICENSE). 
+The MIT License is a permissive open source license that allows you to use, modify, and distribute this project for both commercial and non-commercial purposes.
