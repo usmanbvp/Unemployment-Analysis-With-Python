@@ -1,6 +1,7 @@
 <h1 align = "center"> Unemployment-Analysis-With-Python </h1>
 
-<img src = "images/unemployment.jpg" height = "300" width = "1500" >
+<img src = "https://github.com/usmanbvp/Unemployment-Analysis-With-Python/assets/119880028/25b1453b-5d76-4f8e-ad7b-986d18048d74" height = "300" width = "1500" >
+
 
 ## 📝 Description
 This project aims to analyze the unemployment data of a India and create visualizations to help understand the trends and patterns in the data. The project uses Python libraries such as Pandas, Matplotlib, and NumPy for data manipulation and visualization.
@@ -37,7 +38,7 @@ jupyter notebook
 
 5. Run the cells one by one  in the notebook to visualize the patterns of data.
 
-<img src = "images/newplot.png" height = "300"  >
+<img src = "https://github.com/usmanbvp/Unemployment-Analysis-With-Python/assets/119880028/634157f7-fa0c-4c28-9c06-97277c7eddee" height = "300"  >
 
 ## 🗒️License
 
